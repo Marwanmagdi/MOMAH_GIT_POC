@@ -1,0 +1,346 @@
+export const copy = {
+  ar: {
+    meta: {
+      locale: "ar-SA",
+      dir: "rtl",
+      switchLanguage: "English",
+      switchThemeLight: "فاتح",
+      switchThemeDark: "داكن",
+    },
+    brand: {
+      title: "منصة مركز الابتكار",
+      subtitle: "وزارة البلديات والإسكان",
+      badge: "عرض إثبات مفهوم",
+      login: "تسجيل الدخول",
+    },
+    nav: {
+      home: "الرئيسية",
+      challenges: "التحديات",
+      challengeDetails: "تفاصيل التحدي",
+      submitIdea: "تقديم فكرة",
+      admin: "لوحة الإدارة",
+      matchmakers: "المواءمات",
+    },
+    hero: {
+      eyebrow: "من التحدي إلى القرار والتنفيذ التجريبي",
+      title: "منصة موحدة لإدارة التحديات والأفكار والمطابقة الذكية",
+      description:
+        "نموذج أولي جاهز للعرض يوضح رحلة الابتكار الكاملة لمركز الابتكار: نشر التحديات، استقبال الأفكار، التقييم متعدد الأبعاد، ثم تفعيل مسار Matchmakers للجهات المؤهلة.",
+      primaryAction: "استعراض التحديات",
+      secondaryAction: "تقديم فكرة",
+      footnote:
+        "يعرض هذا النموذج النطاق الوظيفي الأساسي الوارد في وثيقة متطلبات الأعمال مع بيانات تجريبية قابلة للتخصيص.",
+    },
+    highlights: {
+      title: "مؤشرات المنصة",
+      subtitle: "لقطة تنفيذية سريعة لعرض قيمة المنصة خلال الاجتماع.",
+      stats: [
+        { value: "12", label: "تحديًا منشورًا" },
+        { value: "148", label: "فكرة مستلمة" },
+        { value: "29", label: "قيد التقييم" },
+        { value: "34", label: "جهة مسجلة" },
+      ],
+    },
+    operatingModel: {
+      title: "نموذج التشغيل",
+      subtitle: "المسار التشغيلي في الوثيقة يمر عبر ست مراحل رئيسية تدعم الحوكمة واتخاذ القرار.",
+      stages: [
+        {
+          step: "01",
+          title: "الإعداد الداخلي",
+          text: "صياغة التحديات واعتمادها داخليًا مع الأهداف والنطاق ومعايير التقييم.",
+        },
+        {
+          step: "02",
+          title: "النشر والتفاعل",
+          text: "نشر التحديات للفئات المستهدفة مع محتوى توضيحي وإطار زمني واضح.",
+        },
+        {
+          step: "03",
+          title: "تقديم الأفكار",
+          text: "استقبال الأفكار المرتبطة بالتحديات أو المقترحات العامة عبر نموذج موحد.",
+        },
+        {
+          step: "04",
+          title: "المراجعة والتقييم",
+          text: "توزيع الأفكار على الخبراء وتطبيق تقييم متعدد الأبعاد وشفاف.",
+        },
+        {
+          step: "05",
+          title: "القرار والتوجيه",
+          text: "اعتماد الفكرة المناسبة وتحديد المسار التالي أو متطلبات التطوير.",
+        },
+        {
+          step: "06",
+          title: "بنك الأفكار",
+          text: "حفظ المعرفة المؤسسية وإعادة استخدام الأفكار والنتائج في دورات لاحقة.",
+        },
+      ],
+    },
+    valueProps: {
+      title: "ما الذي يعرضه هذا النموذج؟",
+      subtitle: "يركز العرض على أهم الوحدات المطلوبة في النسخة التجريبية.",
+      items: [
+        {
+          title: "نشر وإدارة التحديات",
+          text: "عرض بصري واضح لحالة التحديات والجهة المالكة والجمهور المستهدف ومواعيد الإغلاق.",
+        },
+        {
+          title: "رحلة تقديم فكرة سلسة",
+          text: "نموذج مبسط ثنائي اللغة يبرز سهولة الاستخدام واستكمال الحقول الأساسية.",
+        },
+        {
+          title: "لوحة تقييم تنفيذية",
+          text: "تصور لبطاقات التقييم، المؤشرات السريعة، وأصحاب القرار داخل الإدارة.",
+        },
+        {
+          title: "مكون Matchmakers",
+          text: "مطابقة تجريبية بين التحديات المعتمدة والجهات المؤهلة مع تفسير لدرجة التطابق.",
+        },
+      ],
+    },
+    roles: {
+      title: "المستخدمون والأدوار",
+      subtitle: "الأدوار الأساسية المستخلصة من وثيقة BRD لتوضيح من يستخدم المنصة وكيف.",
+      items: [
+        "مدير إدارة الابتكار لإدارة المحتوى والاعتماد والتوجيه.",
+        "موظف إدارة الابتكار لمتابعة التحديات والأفكار والعمليات اليومية.",
+        "خبير ابتكار لتقييم الأفكار بحسب التخصصات المعتمدة.",
+        "موظف قطاع أعمال لتقديم التحديات الداخلية ومتابعتها.",
+        "مستخدم عام للمشاركة بالأفكار والمقترحات.",
+        "جهة شريكة للتسجيل والتقديم عبر مسار Matchmakers.",
+      ],
+    },
+    challenges: {
+      title: "التحديات النشطة",
+      subtitle: "نماذج تحديات تجريبية تحاكي النشر، التفاعل، وعدد الأفكار لكل تحدٍ.",
+      owner: "الجهة المالكة",
+      audience: "الفئة المستهدفة",
+      deadline: "آخر موعد",
+      ideas: "عدد الأفكار",
+      statusOpen: "مفتوح",
+      statusReview: "قيد المراجعة",
+      detailsAction: "عرض التفاصيل",
+      submitAction: "تقديم فكرة",
+    },
+    challengeDetails: {
+      title: "تفاصيل التحدي",
+      subtitle: "صفحة لعرض ملخص التحدي، أهدافه، معايير المشاركة، والمرحلة الحالية.",
+      overview: "نظرة عامة",
+      goals: "الأهداف",
+      criteria: "معايير المشاركة",
+      readiness: "جاهزية التنفيذ",
+      action: "ابدأ تقديم فكرتك",
+    },
+    submitIdea: {
+      title: "تقديم فكرة",
+      subtitle: "تجربة استخدام واضحة تدعم رفع فكرة مرتبطة بتحدٍ منشور أو مبادرة عامة.",
+      sections: {
+        profile: "بيانات مقدم الفكرة",
+        proposal: "بيانات الفكرة",
+      },
+      fields: {
+        fullName: "الاسم الكامل",
+        email: "البريد الإلكتروني",
+        mobile: "رقم الجوال",
+        title: "عنوان الفكرة",
+        challenge: "التحدي المرتبط",
+        category: "تصنيف الفكرة",
+        description: "وصف الفكرة",
+        impact: "الأثر المتوقع",
+      },
+      agreement: "أقر بصحة المعلومات وأوافق على مشاركة الفكرة لأغراض التقييم.",
+      submit: "إرسال الفكرة",
+    },
+    admin: {
+      title: "لوحة الإدارة والتقييم",
+      subtitle: "واجهة تنفيذية تبرز متابعة دورة الابتكار والتقدم في المراجعة واتخاذ القرار.",
+      metricsTitle: "مؤشرات سريعة",
+      scoreTitle: "بطاقة تقييم الفكرة",
+      decisionTitle: "توصية القرار",
+      decisionText:
+        "الفكرة مؤهلة للانتقال إلى مرحلة التحقق التجريبي، مع توصية بتفعيل مسار Matchmakers للبحث عن شركاء تقنيين وتنفيذيين.",
+    },
+    matchmakers: {
+      title: "المواءمات",
+      subtitle: "مطابقة الجهات المؤهلة بالتحديات أو الأفكار المعتمدة لبدء شراكات وتجارب أولية.",
+      selected: "التحدي المختار",
+      recommendation: "الجهات المرشحة",
+      rationale: "مسببات الترشيح",
+      score: "درجة التطابق",
+    },
+    footer: "نموذج أولي قابل للتوسعة إلى منصة تشغيلية كاملة في المرحلة التالية.",
+  },
+  en: {
+    meta: {
+      locale: "en-US",
+      dir: "ltr",
+      switchLanguage: "العربية",
+      switchThemeLight: "Light",
+      switchThemeDark: "Dark",
+    },
+    brand: {
+      title: "Innovation Center Platform",
+      subtitle: "Ministry of Municipalities and Housing",
+      badge: "Proof of Concept",
+      login: "Login",
+    },
+    nav: {
+      home: "Home",
+      challenges: "Challenges",
+      challengeDetails: "Challenge Details",
+      submitIdea: "Submit Idea",
+      admin: "Admin Dashboard",
+      matchmakers: "Matchmakers",
+    },
+    hero: {
+      eyebrow: "From challenge creation to decision and pilot activation",
+      title: "A unified platform for challenges, ideas, and smart matching",
+      description:
+        "A presentation-ready prototype that demonstrates the Innovation Center journey: publish challenges, receive ideas, run structured evaluation, and activate Matchmakers for qualified external entities.",
+      primaryAction: "Explore Challenges",
+      secondaryAction: "Submit an Idea",
+      footnote:
+        "This proof of concept reflects the core business scope from the BRD using presentation-friendly mock data.",
+    },
+    highlights: {
+      title: "Platform KPIs",
+      subtitle: "A quick executive snapshot for the client presentation.",
+      stats: [
+        { value: "12", label: "Published challenges" },
+        { value: "148", label: "Ideas received" },
+        { value: "29", label: "Under evaluation" },
+        { value: "34", label: "Registered entities" },
+      ],
+    },
+    operatingModel: {
+      title: "Operating Model",
+      subtitle: "The BRD describes a six-stage innovation flow with governance and decision support.",
+      stages: [
+        {
+          step: "01",
+          title: "Internal Preparation",
+          text: "Define and approve challenges internally with objectives, scope, and scoring criteria.",
+        },
+        {
+          step: "02",
+          title: "Publishing & Engagement",
+          text: "Publish approved challenges to target audiences with clear context and timelines.",
+        },
+        {
+          step: "03",
+          title: "Idea Submission",
+          text: "Capture challenge-linked ideas and general proposals through a unified form.",
+        },
+        {
+          step: "04",
+          title: "Review & Evaluation",
+          text: "Assign ideas to experts and apply transparent, multi-dimensional evaluation.",
+        },
+        {
+          step: "05",
+          title: "Decision & Direction",
+          text: "Approve the right idea and define the next delivery or validation path.",
+        },
+        {
+          step: "06",
+          title: "Idea Bank",
+          text: "Retain institutional knowledge and reuse insights across future innovation cycles.",
+        },
+      ],
+    },
+    valueProps: {
+      title: "What does this POC demonstrate?",
+      subtitle: "The prototype focuses on the most important modules requested for the presentation.",
+      items: [
+        {
+          title: "Challenge publishing and governance",
+          text: "A clear challenge catalogue with ownership, target audience, status, and deadline visibility.",
+        },
+        {
+          title: "Smooth idea submission journey",
+          text: "A bilingual, presentation-friendly form designed to show usability and structured intake.",
+        },
+        {
+          title: "Executive review dashboard",
+          text: "A practical view of scoring, quick metrics, and governance-oriented decision support.",
+        },
+        {
+          title: "Matchmakers concept",
+          text: "A first-pass matching experience linking approved challenges with relevant external partners.",
+        },
+      ],
+    },
+    roles: {
+      title: "Users and Roles",
+      subtitle: "Core platform roles derived from the BRD to show who uses the system and why.",
+      items: [
+        "Innovation management director for approval, governance, and direction.",
+        "Innovation management staff for challenge and idea operations.",
+        "Innovation experts for specialist evaluation and review.",
+        "Business sector staff for internal challenge submission and follow-up.",
+        "Public users for ideas and open innovation participation.",
+        "Partner entities applying through the Matchmakers stream.",
+      ],
+    },
+    challenges: {
+      title: "Active Challenges",
+      subtitle: "Sample challenges that demonstrate publishing, engagement, and idea volume.",
+      owner: "Owner",
+      audience: "Audience",
+      deadline: "Deadline",
+      ideas: "Ideas",
+      statusOpen: "Open",
+      statusReview: "In Review",
+      detailsAction: "View Details",
+      submitAction: "Submit Idea",
+    },
+    challengeDetails: {
+      title: "Challenge Details",
+      subtitle: "A focused page for challenge summary, goals, participation criteria, and current readiness.",
+      overview: "Overview",
+      goals: "Goals",
+      criteria: "Participation Criteria",
+      readiness: "Execution Readiness",
+      action: "Start Submitting",
+    },
+    submitIdea: {
+      title: "Submit Idea",
+      subtitle: "A clear submission experience for challenge-linked ideas or broader innovation proposals.",
+      sections: {
+        profile: "Submitter Profile",
+        proposal: "Idea Details",
+      },
+      fields: {
+        fullName: "Full Name",
+        email: "Email Address",
+        mobile: "Mobile Number",
+        title: "Idea Title",
+        challenge: "Related Challenge",
+        category: "Idea Category",
+        description: "Idea Description",
+        impact: "Expected Impact",
+      },
+      agreement: "I confirm the information is accurate and can be used for evaluation purposes.",
+      submit: "Send Idea",
+    },
+    admin: {
+      title: "Admin & Evaluation Dashboard",
+      subtitle: "An executive interface for reviewing pipeline progress, evaluation status, and decisions.",
+      metricsTitle: "Quick Metrics",
+      scoreTitle: "Idea Scorecard",
+      decisionTitle: "Recommended Decision",
+      decisionText:
+        "The idea is ready to move into pilot validation, with a recommendation to activate Matchmakers and identify delivery partners.",
+    },
+    matchmakers: {
+      title: "Matchmakers",
+      subtitle: "Match qualified entities to approved challenges or ideas to launch partnerships and pilot activity.",
+      selected: "Selected Challenge",
+      recommendation: "Recommended Entities",
+      rationale: "Why they fit",
+      score: "Match Score",
+    },
+    footer: "Expandable prototype ready to evolve into a full delivery platform in the next phase.",
+  },
+};

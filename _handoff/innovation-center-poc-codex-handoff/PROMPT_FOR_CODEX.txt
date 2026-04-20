@@ -1,0 +1,16 @@
+Continue this project from the packaged prototype.
+
+Priorities:
+1. Rebuild the full page content from the current design direction
+2. Keep Arabic/English and RTL/LTR support
+3. Improve the header responsiveness exactly as specified in the handoff
+4. Replace the embedded base64 logo with proper dark/light assets
+5. Keep the ministry-inspired green visual identity
+6. Keep this as a polished presentation-grade frontend POC
+7. Do not add backend complexity yet
+
+Also:
+- Keep login icon-only
+- Keep navigation centered
+- Keep utility buttons smaller than page buttons
+- Avoid horizontal scroll in the header
